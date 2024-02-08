@@ -1,0 +1,29 @@
+@media (max-width: 640px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .informacoes h1 {
+        font-size: 48px;
+    }
+
+    .hero img {
+        margin-top: 2rem;
+        max-height: 100%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer p:nth-child(2) {
+        margin-top: 0;
+    }
+}
